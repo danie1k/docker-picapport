@@ -16,3 +16,5 @@ server.port = 80
 robot.root.0.path = /srv/photos  # <- This should be set as Docker volume
 foto.jpg.usecache = 2
 ```
+
+Full config documentation: http://wiki.picapport.de/display/PICE/PicApport-Server+Guide
