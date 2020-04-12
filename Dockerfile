@@ -21,7 +21,7 @@ RUN getent group $GID || addgroup --gid $GID --system picapport \
     --system picapport \
  && mkdir -p $WORKDIR/$PICAPPORTDIR
 
-# Add reqired files
+# Add required files
 ADD https://www.picapport.de/download/8-2-02/picapport-headless.jar $WORKDIR/picapport-headless.jar
 RUN chown -R $UID:$GID $WORKDIR
 
