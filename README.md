@@ -1,4 +1,10 @@
 # danie1k/picapport
+
+[![Docker Hub Build Type](https://img.shields.io/docker/cloud/automated/danie1k/picapport)][1]
+[![Docker Hub Build Status](https://img.shields.io/docker/cloud/build/danie1k/picapport)][1]
+[![MIT License](https://img.shields.io/github/license/danie1k/docker-picapport)][2]
+[![Docker Hub](https://img.shields.io/badge/hub-picapport-660198.svg)][3]
+
 Non-root [PicApport](https://www.picapport.de/) @ Alpine
 
 **Volumes:**
@@ -18,3 +24,7 @@ foto.jpg.usecache = 2
 ```
 
 Full config documentation: http://wiki.picapport.de/display/PICE/PicApport-Server+Guide
+
+[1]: https://hub.docker.com/r/danie1k/picapport
+[2]: https://github.com/danie1k/danie1k/docker-picapport/blob/master/LICENSE
+[3]: https://hub.docker.com/r/danie1k/picapport/builds
